@@ -40,6 +40,7 @@ function removeKFromList(l, k) {
   return box.next
 }
 
+console.log(removeKFromList([3, 1, 2, 3, 4, 5], 3))
 module.exports = {
   removeKFromList
 };
